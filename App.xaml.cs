@@ -28,7 +28,9 @@ namespace RT_Checker
         private string[] _args;
 
         protected override void OnStartup(StartupEventArgs e)
-        {
+        {  
+
+
             _args = e.Args;
             base.OnStartup(e);
         }
