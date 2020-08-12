@@ -19,6 +19,7 @@ namespace RT_Checker
     /// </summary>
     public partial class App
     {
+
         private IEventAggregator _ea;
         private IESAPIService _esapiServ;
 
